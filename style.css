@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: #F5F3FC !important;
+}
+
+#logo_alura {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.text__area {
+
+    border: none;
+    background-color: #F5F3FC;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.text__area::placeholder {
+    color: #0A3871;
+}
+
+#alerta {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#instr {
+    color: #495657;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+
+.informacion {
+    font-size: 18px;
+    color: #495657;
+    margin-top: 4px;
+    text-align: left;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: #F5F3FC;
+}
+
+
+
+
+.informacion {
+
+    color: #495657;
+}
+
+.botones {
+    padding-left: 20%;
+    padding-top: 15px;
+    justify-content: space-between;
+
+}
+
+.btn_encriptar {
+
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.btn__desencriptar {
+
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    width: 40%;
+}
+
+#section2 {
+    margin-top: 50px;
+    margin-bottom: 15%;
+    padding-bottom: 5%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.muneco__fondo {
+    position: relative;
+    top: 20px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+@media (max-width: 992px) {
+    img#muneco {
+      display: none;
+    }
+  }
+.texto__insertar {
+    position: relative;
+    box-sizing: border-box;
+    top: 20px;
+    text-align: center;
+}
+
+.texto__insertar h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    padding-left: 30px;
+    color: #343A40;
+}
+
+.texto__insertar p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 50px;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.texto__resultado {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+.texto__resultado p {
+    color: #495057;
+    font-size: 24px;
+    text-align: center;
+}
+
+.botoncopy {
+    padding-top: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_copiar {
+    width: 100px;
+    max-width: 328px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: white;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    main{
+        margin-left: 0px;
+    }
+    .entrada-texto{
+        margin-top: 50px;
+        width: 686px;
+        height: 400px;
+    }
+    .botones, .salida-texto{
+        margin-top: 0px;
+    }
+    .salida-texto{
+        height: 550px;
+    }
+    .dinamico{
+        margin-top: -160px;
+    }
+    .copiar{
+        margin-top: 60px;
+    }
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+   .logo{
+    width: 15%;
+    margin-top: 40px;
+   } 
+   main{
+    display: block;
+    margin: 0px 30px;
+   }
+   .entrada-texto{
+    margin-top: 60px;
+    width: 100%;
+    height: 700px;
+   }
+   .botones{
+    margin-top: 0px;
+   }
+   .salida-texto{
+    margin: 40px 0px;
+    width: 655px;
+    height: 300px;
+    background: white;
+   }
+   .dinamico{
+    margin-top: -250px;
+    margin-left: 0px;
+    width: 655px;
+   }
+   .texto1{
+    margin-bottom: .5em;
+   }
+   .copiar{
+    margin-top: 100px;
+   }
+   .anuncio{
+    margin-left: 70px;
+   }
+}
+/* Celular */
+@media screen and (max-width: 375px) {
+    .logo__alura{
+        margin-top: 30px;
+        width: 30%;
+    }
+    .contenedor{
+        margin-top: 20px;
+        height: 340px;
+    }
+    .botones{
+        display: block;
+        margin-top: 0px;
+    }
+    .btn_encriptar, .btn__desencriptar{
+        width: 100%;
+    }
+    .btn__desencriptar{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .texto__resultado, .texto__insertar, .btn_copiar{
+        width: 295px;
+    }
+    .dinamico{
+        margin-left: 10px;
+    }
+    .salida-texto{
+        padding: 10px;
+        padding-bottom: 120px;
+        height: 180px;
+    }
+    .anuncio{
+        width: 285px;
+        margin-left: -100px;
+    }
+}
